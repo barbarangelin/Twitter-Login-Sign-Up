@@ -88,7 +88,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, 30));
 
         jLabel3.setFont(new java.awt.Font("Noto Sans", 0, 17)); // NOI18N
-        jLabel3.setText("Senha: ");
+        jLabel3.setText("Password:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, 30));
 
         btnCancel.setBackground(new java.awt.Color(255, 51, 51));

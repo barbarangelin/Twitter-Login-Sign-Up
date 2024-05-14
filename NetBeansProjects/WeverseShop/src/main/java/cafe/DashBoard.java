@@ -108,7 +108,7 @@ public class DashBoard extends javax.swing.JFrame {
     
     public boolean qtyIsZero (int qty){
     if (qty==0){
-    JOptionPane.showMessageDialog(null, "Por favor, coloque a quantidade de itens.");
+    JOptionPane.showMessageDialog(null, "Please enter the quantity of items.");
     return false;
     
     }
@@ -2162,14 +2162,14 @@ public class DashBoard extends javax.swing.JFrame {
     private void btnTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTotalActionPerformed
         // TODO add your handling code here:
         if (total==0.0 ){
-         JOptionPane.showMessageDialog(null, "Nenhum item foi selecionado.");
+         JOptionPane.showMessageDialog(null, "No items were selected.");
         } else {
          jTextArea.setText(jTextArea.getText()
          +"\n*******************************************************************\n\n"
          +"Tax: \t\t\t"+String.format("%.2f", tax)+"\n"
                  + "Sub Total: \t\t\t"+String.format("%.2f", total)+"\n"
          +"Total: \t\t\t"+String.format("%.2f", tax+total)+"\n\n"+
-                 "*************************** Volte Sempre *************************\n\n");
+                 "********************* Thank you. Come back soon. *******************\n\n");
          
          btnTotal.setEnabled(false);
         }
@@ -2206,7 +2206,7 @@ public class DashBoard extends javax.swing.JFrame {
              
             }else {
         
-        JOptionPane.showMessageDialog(null, "Voce ainda nao totalizou nenhum valor.");
+        JOptionPane.showMessageDialog(null, "You haven't totaled any value.");
         
         }
      
